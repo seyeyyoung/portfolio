@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1140px) {
+    header {
+        width: 1140px;
+    }
+
+    nav ul {
+        width: 1140px;
+    }
+
+    .tittle .tt h3 {
+        font-size: 3.5rem;
+    }
+
+    .tittle .tt h2 {
+        font-size: 8rem;
+    }
+
+    
+
+}
