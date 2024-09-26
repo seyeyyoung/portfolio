@@ -1,11 +1,9 @@
 $(function(){
     $('#fullpage').fullpage({
         anchors : ['page1', 'page2', 'page3', 'page4', 'page5'],
-        navigation : true,
-        navigationPosition : 'left',
-        navigationTooltips : ['HOME', 'ABOUT-ME', 'CODING', 'VIDEO','CONTACT'],
+        navigation : false,
         keyboardScrolling : false,
-        slidesNavigation : true,
+        slidesNavigation : false,
         responsiveWidth: 1000,
     })
 })

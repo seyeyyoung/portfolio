@@ -23,6 +23,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    cursor: url('../images/cursor.png') 2 2, auto;
+}
+
+*:active {
+    cursor: url('../images/click.png') 2 2, auto;
 }
 
 a {
@@ -150,6 +155,7 @@ section {
     grid-template-columns: repeat(3, 33.3%);
     grid-template-rows: repeat(4, 50%);
     gap: 20px;
+    position: relative;
 }
 
 .item {
@@ -162,10 +168,6 @@ section {
 
 .item .icon {
     font-size: 3rem;
-}
-
-.item .icon img {
-    width: 50px;
 }
 
 .one {
@@ -194,10 +196,38 @@ section {
     color: #fff;
 }
 
+.skil {
+    text-align: center;
+    position: absolute;
+    bottom: -15%; left: 50%;
+    transform: translate(15%,-50%);
+}
+
+.skil h3 {
+    background-color: transparent;
+    border: 3px solid #FF78CF;
+    border-radius: 20px;
+    font-family: "Press Start 2P", system-ui;
+    font-size: 1.5rem;
+    color: #fff
+}
+
+.skil .icon a {
+    padding-top: 10px;
+}
+
+.skil .icon a i {
+    font-size: 3rem;
+}
+
+.skil .icon a img {
+    width: 40px;
+}
+
 /* CODING */
 
 .coding {
-    text-align: center;
+    text-align: center; 
     position: relative;
 }
 
